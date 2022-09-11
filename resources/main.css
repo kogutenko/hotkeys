@@ -82,13 +82,17 @@ h2 > a::after {
     margin: 0 9px;
 }
 span {
+    display: inline-block;
     color: #111;
     font-size: 17px;
+    line-height: 1.5em;
     font-family: "Fira Code", monospace;
     background-color: #FFF;
     border: 1px solid #AAA;
-    padding: 1.5px 6.5px;
+    border-bottom-width: 3px;
+    padding: 0 6.5px;
     border-radius: 3px;
+    margin: 1px;
 }
 .cmd {
     background-color: transparent;
